@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.header_section img {
+  width: 170px;
+  margin: 20px;
+  z-index: 99;
+  position: fixed;
+  top: 0px;
+  cursor: pointer;
+  /* border: 2px solid black; */
+}
+.header_section img:hover {
+  background-color: #ffffff;
+}
+
+.bar_con {
+  font-size: 25px;
+  position: fixed;
+  right: 10px;
+  top: 15px;
+  /* color: #000000; */
+  cursor: pointer;
+}
+
+.nav_section {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+  top: 0px;
+  background-color: #f8f8f8;
+  display: none;
+  z-index: 9;
+}
+.showNav {
+  display: block;
+}
+
+.close_nav {
+  font-size: 25px;
+  position: fixed;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+
+nav ul a {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15px;
+  padding-block: 8px;
+  /* border: 2px solid black; */
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.8;
+  cursor: pointer;
+}
+nav ul a:hover {
+  background-color: #fffab9;
+}
+
+.wrapper {
+  margin-top: 12vw;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-right: 4vw;
+  }
+
+  .header_section img {
+    width: 200px;
+    margin: 0px;
+    margin-left: 3vw;
+    position: static;
+    /* border: 2px solid black; */
+  }
+
+  .bar_con {
+    display: none;
+  }
+
+  .close_nav {
+    display: none;
+  }
+
+  .nav_section {
+    min-height: 0vh;
+    min-width: 12rem;
+    position: static;
+    top: 0px;
+    background-color: #ffffff;
+    display: block;
+    /* border: 2px solid black; */
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    min-height: fit-content;
+    min-width: fit-content;
+    align-items: center;
+    /* border: 2px solid green; */
+  }
+
+  nav ul a {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+    list-style: none;
+    padding-block: 0px;
+    /* border: 2px solid black; */
+    opacity: 1;
+  }
+}

@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  /* border: 2px solid green; */
+  margin-inline: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.image-1 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572006830753-FII9HKTAVA4MG70ZICFE/Kizu+Table+Lamp+White+Marble%2C+Small.jpg?format=500w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-2 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/9a2a9338-6597-45ae-9202-556b5f57ee63/Hex-desert_heymat_05_larstornoe_liveberg_sofiebrovold.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-3 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1575377142105-6J23KN0MQBR4W6SX8RFN/To+h%C3%B8ye+Tind+1500+sofaer+og+S-bord_+Fora+Form.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-4 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1647864590691-DA85D0F8BT6G6SPYPSQT/Coil3.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-5 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572253834364-ZGVVYKVRIN68LGVPFW38/The_Dots.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-6 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572619518325-HG7MXFE5VPOK8YPRAXUG/Pinch-monstera.jpg?format=500w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-7 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572009863074-1HBC5X1UR6BXJ3Z2HHZS/22887941654_211a6e1475_k.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-8 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572006766371-30X0ERADF6PKQHWUZV71/Tornoe_Sep17_036_REDIGERT.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-9 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572010207090-BG855UZ1IE9Q8L7234GQ/Fjell+stoler+med+4er+kryss+og+Kvart+eikebord+hos+Fora+Form.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-10 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572031414682-TMQAI1EN4NCUHT91A6N2/22491418243_4e1a703986_5k.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-11 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572010322807-BZ1AHLNJYUGLPR000YQR/Con+Barkrakker_Fora+Form.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-12 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572034768337-UL6TPDM30Q2SA73V8300/Kvart_kryss_Lars_Torn%C3%B8e.jpg?format=1000w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-13 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572009980561-13CPP50541BTFLPAID49/Cooee_01_COR_horizontal.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-14 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572033116849-LRUFESIQCW3TUIETZDGF/figgjoprofil_undring_30.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-15 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572033496303-0A95T0XQP1SXSX1K0EZF/Copenhagen+chair+sort++Fora+Form.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-16 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572034203249-M3MD31ZO2B6WOBDL30S2/45844733402_3d756dd1c1_5k.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-17 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572031194468-YPYW6WU38S07AL5AEQ17/Clint+stol+med+lett+armlen_+Fora+Form.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-18 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572034708806-JAB2AH9PB8UGOHHTQRCX/31927583723_bbb736c968_4k.jpg?format=1000w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-19 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572032419616-MXSRQRO8QKAM65A1FS5H/Myk_Viz5.JPG?format=1000w);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-20 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5e6a57e7a27b0001395f6e/1572253635027-MOBPMC2JS1IKP0D8ZXY6/spv_6777v3.jpg?format=750w);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background: rgba(251, 245, 188, 0.8);
+  display: flex;
+  justify-content: left;
+  align-items: self-end;
+  opacity: 0;
+  transition: 0.1;
+  /* border: 2px solid black; */
+}
+.content:hover {
+  opacity: 1;
+}
+
+.content p {
+  margin: 4vw;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 769px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    margin-inline: 3vw;
+    margin-block: 3vw 3vw;
+  }
+}
