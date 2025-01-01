@@ -3,8 +3,6 @@ const openNav = document.querySelector(".bar_con");
 const nav = document.querySelector(".nav_section");
 const mainLogo = document.querySelector("#main_logo");
 
-console.log(mainLogo, logo);
-
 closeNav.addEventListener("click", function () {
   nav.classList.remove("showNav");
 });
