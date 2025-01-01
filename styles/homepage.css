@@ -206,9 +206,10 @@ a {
   justify-content: left;
   align-items: self-end;
   opacity: 0;
-  transition: 0.1;
+  transition: all 0.3s linear;
   /* border: 2px solid black; */
 }
+
 .content:hover {
   opacity: 1;
 }
