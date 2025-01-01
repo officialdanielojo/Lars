@@ -17,7 +17,6 @@ body {
   cursor: pointer;
   /* border: 2px solid black; */
 }
-
 .header_section img:hover {
   background-color: #ffffff;
 }
@@ -40,7 +39,6 @@ body {
   display: none;
   z-index: 9;
 }
-
 .showNav {
   display: block;
 }
@@ -74,7 +72,6 @@ nav ul a {
   opacity: 0.8;
   cursor: pointer;
 }
-
 nav ul a:hover {
   background-color: #fffab9;
 }
